@@ -1,5 +1,11 @@
+import Counter from "../../feature/counter/Counter";
+
 function Home() {
-  return <div></div>;
+  return (
+    <div>
+      <Counter />
+    </div>
+  );
 }
 
 export default Home;

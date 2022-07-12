@@ -1,6 +1,6 @@
 import { Dispatch } from "react";
 import { connect } from "react-redux";
-import { ICounterAction, ICounterProps, IDispatch } from "../../Interfaces/counterInterface";
+import { ICounterAction, ICounterProps, IDispatch } from "../../interfaces/counterInterface";
 import { down, up } from "./counterSlice";
 
 function Counter({ count, up, down }: ICounterProps) {
